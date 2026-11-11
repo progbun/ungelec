@@ -1,0 +1,22 @@
+{
+  "name": "UNGÉLEC — Électricien & multi-services",
+  "short_name": "UNGÉLEC",
+  "start_url": "/ungelec/",
+  "scope": "/ungelec/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "lang": "fr-FR"
+}

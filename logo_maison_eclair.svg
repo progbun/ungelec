@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 288" width="512" height="576" role="img" aria-label="UNG — maison et éclair">
+  <!-- Maison -->
+  <path fill="none" stroke="#3a4a3a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"
+        d="M 48 120 L 128 40 L 208 120 L 208 248 L 48 248 Z"/>
+  <!-- Éclair -->
+  <path fill="#3a4a3a"
+        d="M 138 78 L 98 150 L 122 150 L 102 210 L 158 130 L 130 130 Z"/>
+</svg>

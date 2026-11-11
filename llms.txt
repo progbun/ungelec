@@ -1,0 +1,79 @@
+# UNGÉLEC — Bunly UNG
+
+> Électricien et multi-services à Malafretaz (01340), dans l'Ain. Installation électrique,
+> mise en conformité NF C 15-100, dépannage et petits travaux, dans un rayon de 30 km
+> autour de Malafretaz.
+
+## Identité
+
+- Raison sociale : UNG Bunly — entrepreneur individuel (micro-entreprise)
+- Nom commercial : UNGELEC (enseigne UNGÉLEC)
+- SIREN : 824 533 103
+- SIRET : 824 533 103 00027
+- APE : 43.21A — travaux d'installation électrique dans tous locaux
+- APRM : 4321AB — installation électrique
+- Activité artisanale réglementée, immatriculée au RNE le 26/09/2026
+- Adresse : 370 route du Costal, 01340 Malafretaz, France
+- Téléphone : +33 6 81 92 40 29
+- E-mail : ungelec@hotmail.com
+- TVA non applicable, article 293 B du CGI
+
+## Zone d'intervention
+
+30 km autour de Malafretaz : Malafretaz, Montrevel-en-Bresse, Bourg-en-Bresse,
+Pont-d'Ain, Viriat, Attignat, Marboz, Saint-Étienne-du-Bois, Jayat, Marsonnas,
+Polliat, Saint-Denis-lès-Bourg, Ceyzériat.
+
+## Services
+
+- Installation électrique et rénovation
+- Mise en conformité NF C 15-100 et mise en sécurité
+- Remplacement de tableau électrique
+- Prises, interrupteurs, éclairage, circuits spécialisés
+- Recherche de panne et dépannage électrique
+- Domotique et vidéosurveillance
+- Montage de meubles, pose TV, étagères, tringles, miroirs
+- Petits dépannages : robinet, joint, flexible, siphon
+- Petits travaux de peinture et réparations
+
+## Tarifs indicatifs (TVA non applicable)
+
+- Taux horaire électricité : 60 €/h
+- Taux horaire multi-services : 45 €/h
+- Minimum d'intervention : 80 €
+- Déplacement : offert jusqu'à 10 km, 25 € de 10 à 20 km, 40 € de 20 à 30 km
+- Dépannage / diagnostic : 120 € la première heure
+- Remplacement prise ou interrupteur : à partir de 90 €
+- Nouvelle prise : 130 €
+- Plafonnier ou applique : 95 €
+- Mise en sécurité tableau (léger) : à partir de 390 €
+- Fixation TV : 110 € (150 € avec rangement des câbles)
+- Montage meuble simple : à partir de 70 €
+- Armoire, lit, buffet : à partir de 120 €
+- Placard coulissant : 220 €
+- Étagère, tringle, miroir : à partir de 60 €
+- Dépannage sanitaire : 90 €
+- Demi-journée (4 h) : 180 € — journée (8 h) : 320 €
+
+## Horaires
+
+- Lundi à vendredi : 8 h – 19 h
+- Samedi : 8 h – 12 h
+- Dimanche : fermé
+
+## Pages du site
+
+- Accueil : /
+- Tarifs : /tarifs.html
+- Conseils : /conseils.html
+- Mentions légales : /mentions-legales.html
+- Pages locales : /electricien-bourg-en-bresse.html, /electricien-viriat.html,
+  /electricien-attignat.html, /electricien-montrevel.html, /electricien-jayat.html,
+  /electricien-marsonnas.html, /electricien-polliat.html, /electricien-ceyzeriat.html,
+  /electricien-saint-denis-les-bourg.html
+
+## Contact
+
+- Devis gratuit
+- Réponse sous 24 h ouvrées
+- Téléphone : 06 81 92 40 29

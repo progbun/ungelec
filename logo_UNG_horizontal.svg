@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 110" width="1040" height="220">
+  <g transform="translate(6, 4) scale(0.34)">
+    <path fill="none" stroke="#3a4a3a" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"
+          d="M 48 120 L 128 40 L 208 120 L 208 248 L 48 248 Z"/>
+    <path fill="#3a4a3a"
+          d="M 138 78 L 98 150 L 122 150 L 102 210 L 158 130 L 130 130 Z"/>
+  </g>
+  <text x="118" y="52"
+        font-family="Arial Black, Arial, Helvetica, sans-serif"
+        font-size="40" font-weight="800" fill="#0f172a"
+        letter-spacing="0.03em">UNGÉLEC</text>
+  <text x="118" y="80"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="15" fill="#3a4a3a" font-weight="600">Électricien · Homme toutes mains</text>
+</svg>
