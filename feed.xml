@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UNGÉLEC — Conseils &amp; actualités</title>
+    <link>https://ungelec.fr/</link>
+    <description>Conseils électriques et multi-services par UNGÉLEC, artisan à Malafretaz (01340).</description>
+    <language>fr-FR</language>
+    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0100</lastBuildDate>
+    <atom:link href="https://ungelec.fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Prix d'un tableau électrique : repères et devis</title>
+      <link>https://ungelec.fr/conseil-prix-tableau-electrique.html</link>
+      <description>Repères de prix pour le remplacement ou la mise en sécurité d'un tableau électrique, et comment obtenir un devis clair.</description>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0100</pubDate>
+      <guid>https://ungelec.fr/conseil-prix-tableau-electrique.html</guid>
+    </item>
+    <item>
+      <title>Mise aux normes électrique : ce qu'il faut savoir</title>
+      <link>https://ungelec.fr/conseil-mise-aux-normes.html</link>
+      <description>Mise en conformité NF C 15-100 : protections différentielles, sections de câbles, liaisons équipotentielles.</description>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0100</pubDate>
+      <guid>https://ungelec.fr/conseil-mise-aux-normes.html</guid>
+    </item>
+    <item>
+      <title>Habilitation électrique : B0, H0, B1, BR, B2…</title>
+      <link>https://ungelec.fr/conseil-habilitation-electrique.html</link>
+      <description>Comprendre les niveaux d'habilitation électrique selon NF C 18-510 et le Code du travail.</description>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0100</pubDate>
+      <guid>https://ungelec.fr/conseil-habilitation-electrique.html</guid>
+    </item>
+  </channel>
+</rss>

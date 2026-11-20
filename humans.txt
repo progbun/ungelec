@@ -1,0 +1,14 @@
+/* TEAM */
+Artisan : Bunly UNG
+Site : UNGÉLEC
+Contact : contact@ungelec.fr
+Téléphone : 06 81 92 40 29
+Localisation : Malafretaz, Ain, France
+
+/* SITE */
+Dernière mise à jour : 2026-11-20
+Langue : Français
+Doctype : HTML5
+IDE : Visual Studio Code
+Standards : HTML5, CSS3, Schema.org
+Composants : Web3Forms (formulaire)
