@@ -47,7 +47,7 @@
 
   function fallbackContact() {
     var phone = cfg.phone || "0681924029";
-    var mail = cfg.email || "ungelec@hotmail.com";
+    var mail = cfg.email || "contact@ungelec.fr";
     var wa = cfg.whatsapp || "33681924029";
     setStatus("Formulaire non configuré pour l’e-mail automatique. Utilisez WhatsApp, le téléphone ou l’e-mail.", true);
     if (window.confirm("Ouvrir WhatsApp pour envoyer votre demande avec photos ?")) {

@@ -7,7 +7,7 @@
  */
 window.UNG_CONFIG = {
   web3forms_access_key: "70e7ca82-419f-4f97-a056-a5e0decd6d42",
-  email: "ungelec@hotmail.com",
+  email: "contact@ungelec.fr",
   phone: "0681924029",
   whatsapp: "33681924029"
 };
