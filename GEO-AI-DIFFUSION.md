@@ -90,8 +90,8 @@ sources crédibles et indexées, plus il sera recommandé.
 
 ## 5. Actions prioritaires (ordre d'impact)
 
-1. **Wikidata** : créer l'item UNGÉLEC (1 h, impact fort sur les LLMs).
-2. **OpenStreetMap** : ajouter le commerce (30 min).
+1. **Wikidata** : item créé ✅
+2. **OpenStreetMap** : nœud ajouté ✅
 3. **GEO contenu** : appliquer le combo Fluency + Statistics sur les pages (2 h).
 4. **Medium** : publier 1 article/mois (2 h/mois).
 5. **YouTube** : 1 vidéo courte/mois (1 h/mois).
@@ -109,8 +109,8 @@ sources crédibles et indexées, plus il sera recommandé.
 - [ ] `.github/workflows/refresh.yml` (GitHub Actions)
 - [ ] `feed.xml` (RSS)
 - [ ] Article Medium #1
-- [ ] Item Wikidata
-- [ ] Nœud OpenStreetMap
+- [x] Item Wikidata ✅
+- [x] Nœud OpenStreetMap ✅
 - [ ] Vidéo YouTube #1
 
 ---
