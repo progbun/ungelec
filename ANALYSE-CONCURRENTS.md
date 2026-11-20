@@ -46,10 +46,11 @@ Source : Pages Jaunes (recherche « électricien » à Malafretaz 01340), novemb
 ### Faiblesses
 - ❌ 0 avis Google et 0 avis Pages Jaunes (vs. 12 pour Thierry Besancon).
 - ❌ Pas de certification RGE/Qualibat/QualiPV (vs. Dellière, Flatot).
-- ❌ Pas de photovoltaïque / bornes de recharge (marché en croissance).
+- ❌ Pas de photovoltaïque (marché en croissance).
 - ❌ Pas de présence sur Medium, YouTube, Reddit (pas encore).
 - ❌ Pas de Wikidata ni OpenStreetMap (pas encore).
 - ❌ Zone de couverture plus large que la plupart (50 km) mais moins d'avis.
+- ⚠️ IRVE limité à P1 (3,7 kW — prise renforcée) : pas de qualification P2/P3 pour les bornes haute puissance (7 kW+). Expérience électrique : 7 mois. Expérience télécom : 20 ans (D1/D2 cuivre et fibre).
 
 ## 4. Positionnement recommandé
 
@@ -73,7 +74,28 @@ Source : Pages Jaunes (recherche « électricien » à Malafretaz 01340), novemb
 - Vidéos YouTube : démonstrations et conseils.
 - Medium : articles de fond pour le SEO longue traîne.
 
-## 5. Plan d'action concurrentiel
+### Limitation IRVE et stratégie de partenariat
+
+**Situation actuelle :**
+- Qualification IRVE **P1** (3,7 kW — prise renforcée ou borne domestique basique).
+- Expérience électricité : 7 mois.
+- Expérience télécom : 20 ans (D1/D2 cuivre et fibre) — qualifications non transférables à l'IRVE.
+- Pas de qualification P2 (7–22 kW) ni P3 (DC) à court terme.
+
+**Ce que UNGÉLEC peut proposer :**
+- Installation de prise renforcée (3,7 kW) pour la recharge lente de véhicules électriques et hybrides.
+- Câblage dédié pour borne de recharge (ligne spécialisée, disjoncteur, différentiel 30 mA).
+
+**Ce que UNGÉLEC ne peut pas proposer (sans qualification P2/P3) :**
+- Installation de bornes de recharge 7 kW, 11 kW, 22 kW.
+- Installation de superchargeurs DC.
+
+**Stratégie recommandée :**
+- Ne pas promettre de bornes haute puissance sur le site.
+- Mettre en avant la prise renforcée 3,7 kW comme service complémentaire.
+- Proposer un **partenariat avec un installateur IRVE P2/P3** pour l'apport d'affaires (commission ou réciprocité).
+- Se concentrer sur le cœur de métier : électricité générale, mise en conformité, dépannage, multi-services.
+- Revoir la qualification IRVE dans 12–18 mois (après 2 ans d'expérience électrique).
 
 ### Court terme (1–2 mois)
 1. Obtenir 10 avis Google (objectif : dépasser Reg'Elec et André Bâtiment).
@@ -82,8 +104,8 @@ Source : Pages Jaunes (recherche « électricien » à Malafretaz 01340), novemb
 4. Publier le premier article Medium et la première vidéo YouTube.
 
 ### Moyen terme (3–6 mois)
-5. Obtenir une certification RGE ou Qualibat (pour les aides MaPrimeRénov).
-6. Ajouter le photovoltaïque et les bornes de recharge (marché en croissance).
+5. Obtenir une certification RGE ou Qualibat (pour les aides MaPrimeRénov) — nécessite expérience suffisante.
+6. Ajouter le photovoltaïque et les bornes de recharge (marché en croissance) — **reporté** : IRVE limité à P1 (3,7 kW). Envisager un partenariat avec un installateur IRVE P2/P3 pour l'apport d'affaires.
 7. Publier 1 article de blog par mois et 1 vidéo par mois.
 8. Viser 20 avis Google (dépasser Thierry Besancon).
 

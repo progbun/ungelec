@@ -30,6 +30,7 @@ et communes proches.
 - Mise en conformité NF C 15-100 et mise en sécurité
 - Remplacement de tableau électrique
 - Prises, interrupteurs, éclairage, circuits spécialisés
+- Prise renforcée véhicule électrique (3,7 kW)
 - Recherche de panne et dépannage électrique
 - Domotique et vidéosurveillance (particuliers)
 - Montage de meubles, pose TV, étagères, tringles, miroirs
