@@ -1,8 +1,8 @@
 {
   "name": "UNGÉLEC — Électricien & multi-services",
   "short_name": "UNGÉLEC",
-  "start_url": "/ungelec/",
-  "scope": "/ungelec/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
