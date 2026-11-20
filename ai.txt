@@ -1,0 +1,11 @@
+# ai.txt — UNGÉLEC
+# Politique d'utilisation par les systèmes d'IA
+# https://site.spawning.ai/ai-txt
+
+User-agent: *
+Allow: /
+
+# Contenu autorisé pour l'entraînement et la citation par les IA
+# (ChatGPT, Claude, Gemini, Perplexity, Copilot, etc.)
+# Contact : contact@ungelec.fr
+# Site : https://ungelec.fr/
