@@ -23,10 +23,10 @@ AddType text/plain .txt
   RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
   RewriteRule ^index\.html$ / [R=301,L]
 
-  # Forcer HTTPS — À ACTIVER une fois le certificat SSL OVH installé
-  # RewriteCond %{HTTPS} !=on
-  # RewriteCond %{HTTP:X-Forwarded-Proto} !=https
-  # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+  # Forcer HTTPS (certificat SSL OVH actif)
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
 
 <IfModule mod_headers.c>
@@ -35,8 +35,8 @@ AddType text/plain .txt
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
   Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; img-src 'self' data: https://*.tile.openstreetmap.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; frame-src https://www.openstreetmap.org; connect-src 'self' https://api.web3forms.com; form-action 'self' https://api.web3forms.com"
-  # HSTS — À ACTIVER après vérification du HTTPS
-  # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # HSTS (HTTPS vérifié)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>
 
 <IfModule mod_deflate.c>
