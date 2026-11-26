@@ -78,7 +78,7 @@ et communes proches.
 - Pages locales : /electricien-bourg-en-bresse.html, /electricien-viriat.html,
   /electricien-attignat.html, /electricien-montrevel.html, /electricien-jayat.html,
   /electricien-marsonnas.html, /electricien-polliat.html, /electricien-ceyzeriat.html,
-  /electricien-saint-denis-les-bourg.html
+  /electricien-saint-denis-les-bourg.html, /electricien-lons-le-saunier.html
 
 ## Contact
 
