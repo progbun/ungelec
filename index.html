@@ -65,11 +65,23 @@
           "addressCountry": "FR"
         },
         "geo": { "@type": "GeoCoordinates", "latitude": 46.3247, "longitude": 5.1475 },
-        "areaServed": {
+        "areaServed": [{
           "@type": "GeoCircle",
+          "name": "Rayon prioritaire 50 km autour de Malafretaz (Bresse, Dombes, Revermont, Mâcon)",
           "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 46.3247, "longitude": 5.1475 },
           "geoRadius": 50000
+        }, {
+          "@type": "GeoCircle",
+          "name": "Zone étendue jusqu'à 100 km",
+          "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 46.3247, "longitude": 5.1475 },
+          "geoRadius": 100000
         },
+        { "@type": "City", "name": "Bourg-en-Bresse" },
+        { "@type": "City", "name": "Mâcon" },
+        { "@type": "City", "name": "Ambérieu-en-Bugey" },
+        { "@type": "City", "name": "Oyonnax" },
+        { "@type": "City", "name": "Villefranche-sur-Saône" },
+        { "@type": "City", "name": "Lons-le-Saunier" }],
         "priceRange": "€€",
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -93,7 +105,7 @@
           {"@type":"Question","name":"Proposez-vous déjà des travaux d'électricité ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Je suis habilité électrique (NF C 18-510 : B0, H0, B1, BR, B2, B2(V), B1(V), BC) et assuré (RC Pro, décennale). Interventions électriques et multi-services sur devis écrit."}},
           {"@type":"Question","name":"Faut-il un acompte ?","acceptedAnswer":{"@type":"Answer","text":"Oui, un acompte de 30 % est demandé avant le démarrage de tout chantier. Le solde est réglé à la fin des travaux."}},
           {"@type":"Question","name":"Facturez-vous la TVA ?","acceptedAnswer":{"@type":"Answer","text":"En micro-entreprise sous le régime de la franchise en base, la TVA n'est pas applicable (art. 293 B du CGI)."}},
-          {"@type":"Question","name":"Quelle est votre zone d'intervention ?","acceptedAnswer":{"@type":"Answer","text":"Base à Malafretaz (01340), interventions dans un rayon jusqu'à 100 km : Montrevel-en-Bresse, Bourg-en-Bresse, Viriat, Attignat, Marsonnas, Jayat, Polliat, Ceyzériat, Saint-Denis-lès-Bourg et communes proches."}},
+          {"@type":"Question","name":"Quelle est votre zone d'intervention ?","acceptedAnswer":{"@type":"Answer","text":"Base à Malafretaz (01340). Rayon prioritaire de 50 km : toutes les communes de la Bresse (Montrevel-en-Bresse, Bourg-en-Bresse, Viriat, Polliat, Attignat, Jayat, Marsonnas, Ceyzériat, Saint-Denis-lès-Bourg), la Dombes, le Revermont, Pont-de-Vaux, ainsi que Mâcon (25 km), Oyonnax (40 km), Ambérieu-en-Bugey (44 km) et Lons-le-Saunier (47 km). Au-delà, interventions jusqu'à 100 km sur devis (Villefranche-sur-Saône et axe Bourg-Lyon notamment)."}},
           {"@type":"Question","name":"Les devis sont-ils gratuits ?","acceptedAnswer":{"@type":"Answer","text":"Oui, le devis est gratuit et sans engagement. Il est établi par téléphone, e-mail ou WhatsApp après description du besoin et photos si possible. Réponse sous 24 h ouvrées."}},
           {"@type":"Question","name":"Quels sont vos délais d'intervention ?","acceptedAnswer":{"@type":"Answer","text":"Je m'adapte au planning et au type de chantier. Les urgences électriques sont traitées en priorité. Prise de rendez-vous possible (ex. samedi matin, semaine du 12)."}},
           {"@type":"Question","name":"Êtes-vous assuré pour les travaux électriques ?","acceptedAnswer":{"@type":"Answer","text":"Oui, je suis couvert par une responsabilité civile professionnelle (RC Pro) et une assurance décennale pour les ouvrages concernés. Les attestations sont disponibles sur demande avant chantier."}}
@@ -191,7 +203,7 @@
           <ul class="trust">
             <li>SIREN 824 533 103</li>
             <li>Basé à Malafretaz</li>
-            <li>Zone jusqu'à 100 km</li>
+            <li>50 km prioritaires · 100 km</li>
             <li>Devis écrit avant travaux</li>
           </ul>
         </div>
@@ -202,11 +214,20 @@
       <div class="container">
         <header class="section__head"><h2>Chiffres clés</h2></header>
         <div class="services">
-          <article class="service"><h3>100 km</h3><p>Rayon d'intervention autour de Malafretaz et à travers l'Ain et la Saône-et-Loire.</p></article>
-          <article class="service"><h3>9 communes</h3><p>Couvertes en pages dédiées : Bourg-en-Bresse, Viriat, Attignat, Montrevel, Jayat, Marsonnas, Polliat, Ceyzériat, Saint-Denis-lès-Bourg.</p></article>
+          <article class="service"><h3>50 km</h3><p>Rayon prioritaire autour de Malafretaz : toute la Bresse, la Dombes, le Revermont, Pont-de-Vaux, Mâcon (25 km), Oyonnax (40 km), Ambérieu-en-Bugey (44 km) et Lons-le-Saunier (47 km).</p></article>
+          <article class="service"><h3>14 villes</h3><p>Couvertes en pages dédiées : Bourg-en-Bresse, Mâcon, Ambérieu-en-Bugey, Oyonnax, Villefranche-sur-Saône, Lons-le-Saunier, plus Montrevel, Polliat, Viriat, Attignat, Jayat, Marsonnas, Ceyzériat et Saint-Denis-lès-Bourg — et jusqu'à 100 km au-delà, sur devis.</p></article>
           <article class="service"><h3>1 interlocuteur</h3><p>Pas de sous-traitance : du devis au nettoyage de fin de chantier.</p></article>
           <article class="service"><h3>30 %</h3><p>Acompte avant démarrage ; devis valable 30 jours ; TVA non applicable (art. 293 B CGI).</p></article>
         </div>
+      </div>
+    </section>
+
+    <section class="section section--muted" id="zone">
+      <div class="container">
+        <header class="section__head"><h2>Zone d'intervention : 50 km prioritaires autour de Malafretaz</h2></header>
+        <p><strong>Priorité au rayon de 50 km</strong> : toute la Bresse et ses communes — <a href="electricien-bourg-en-bresse.html">Bourg-en-Bresse (15 km)</a>, <a href="electricien-montrevel.html">Montrevel-en-Bresse (5 km)</a>, <a href="electricien-polliat.html">Polliat (7 km)</a>, <a href="electricien-viriat.html">Viriat (11 km)</a>, <a href="electricien-attignat.html">Attignat (9 km)</a>, <a href="electricien-jayat.html">Jayat (6 km)</a>, <a href="electricien-marsonnas.html">Marsonnas (4 km)</a>, <a href="electricien-ceyzeriat.html">Ceyzériat (23 km)</a>, <a href="electricien-saint-denis-les-bourg.html">Saint-Denis-lès-Bourg (18 km)</a> — ainsi que la Dombes (Châtillon-sur-Chalaronne, Villars-les-Dombes), le Revermont, Pont-de-Vaux et Bâgé-le-Châtel.</p>
+        <p><strong>Villes plus lointaines, toujours dans le cercle des 50 km</strong> : <a href="electricien-macon.html">Mâcon</a> à 25 km, <a href="electricien-oyonnax.html">Oyonnax</a> à 40 km, <a href="electricien-amberieu.html">Ambérieu-en-Bugey</a> à 44 km, <a href="electricien-lons-le-saunier.html">Lons-le-Saunier</a> à 47 km et <a href="electricien-villefranche.html">Villefranche-sur-Saône</a> aux portes du rayon.</p>
+        <p><strong>Au-delà de 50 km, jusqu'à 100 km</strong> : déplacements possibles sur devis, le long des grands axes A40, A39 et D1075 — déplacement offert jusqu'à 10 km, puis 30 €, 45 € et 60 € par tranche jusqu'à 50 km.</p>
       </div>
     </section>
 
@@ -348,7 +369,7 @@
         <div>
           <header class="section__head">
             <h2>Zone d'intervention</h2>
-            <p><strong>Artisan local · Malafretaz &amp; alentours</strong> — base à Malafretaz (01340), interventions dans un rayon jusqu'à 100 km : Montrevel-en-Bresse, Attignat, Viriat, Bourg-en-Bresse et communes proches.</p>
+            <p><strong>Artisan local · Malafretaz &amp; alentours</strong> — base à Malafretaz (01340), rayon prioritaire de 50 km (toute la Bresse, la Dombes, le Revermont, plus Mâcon, Oyonnax, Ambérieu-en-Bugey et Lons-le-Saunier) et jusqu'à 100 km au-delà, sur devis.</p>
           </header>
           <ul class="zone-links">
             <li><a href="electricien-montrevel.html">Électricien à Montrevel-en-Bresse</a></li>
@@ -360,8 +381,13 @@
             <li><a href="electricien-polliat.html">Électricien à Polliat</a></li>
             <li><a href="electricien-ceyzeriat.html">Électricien à Ceyzériat</a></li>
             <li><a href="electricien-bourg-en-bresse.html">Électricien à Bourg-en-Bresse</a></li>
+            <li><a href="electricien-macon.html">Électricien à Mâcon</a></li>
+            <li><a href="electricien-oyonnax.html">Électricien à Oyonnax</a></li>
+            <li><a href="electricien-amberieu.html">Électricien à Ambérieu-en-Bugey</a></li>
+            <li><a href="electricien-lons-le-saunier.html">Électricien à Lons-le-Saunier</a></li>
+            <li><a href="electricien-villefranche.html">Électricien à Villefranche-sur-Saône</a></li>
           </ul>
-          <p class="note">Le rayon exact dépend du type de chantier et du planning. Demandez un devis : je vous indique si l'intervention est possible.</p>
+          <p class="note">Rayon prioritaire de 50 km autour de Malafretaz ; au-delà, jusqu'à 100 km, sur devis. Demandez : je vous indique si l'intervention est possible.</p>
         </div>
         <div class="map-wrap">
           <iframe title="Carte Malafretaz et alentours" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=4.85%2C46.15%2C5.45%2C46.50&amp;layer=mapnik&amp;marker=46.3247%2C5.1475"></iframe>
@@ -391,7 +417,7 @@
     <section class="section" id="faq">
       <div class="container faq">
         <header class="section__head"><h2>Questions fréquentes</h2></header>
-        <details><summary>Intervenez-vous uniquement à Malafretaz&nbsp;?</summary><p>Non. La base est à Malafretaz (01340) ; je me déplace dans les communes alentours (secteur Bourg / Bresse), dans un rayon jusqu'à 100 km. Le déplacement est facturé selon la distance.</p></details>
+        <details><summary>Intervenez-vous uniquement à Malafretaz&nbsp;?</summary><p>Non. La base est à Malafretaz (01340) ; rayon prioritaire de 50 km : toute la Bresse (Montrevel, Bourg-en-Bresse, Viriat, Polliat, Attignat, Jayat, Marsonnas, Ceyzériat, Saint-Denis-lès-Bourg), la Dombes, le Revermont, plus Mâcon, Oyonnax, Ambérieu-en-Bugey et Lons-le-Saunier. Au-delà, jusqu'à 100 km, sur devis. Le déplacement est facturé selon la distance.</p></details>
         <details><summary>Proposez-vous déjà des travaux d'électricité&nbsp;?</summary><p>Oui. Je suis habilité électrique (B0, H0, B1, BR, B2, B2(V), B1(V), BC — NF C 18-510) et couvert par une assurance professionnelle (RC Pro, décennale). Les interventions électriques et multi-services sont réalisées sur devis écrit.</p></details>
         <details><summary>Faut-il un acompte&nbsp;?</summary><p>Oui. Un acompte de 30 % est demandé avant le démarrage de tout chantier. Le solde est réglé à la fin des travaux. Le devis est valable 30 jours.</p></details>
         <details><summary>Fournissez-vous le matériel&nbsp;?</summary><p>Le matériel peut être fourni par le client ou chiffré à part sur devis. Indiquez votre préférence dans la demande.</p></details>
