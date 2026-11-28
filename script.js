@@ -12,4 +12,5 @@ form.addEventListener("submit",async e=>{e.preventDefault();if(busy)return;if(!f
 if(PREVIEW||location.protocol==="file:"){tell("Aperçu : les champs sont valides. Aucun message ni photo n’a été envoyé.");return;}
 const cfg=window.UNG_CONFIG||{},key=String(cfg.web3forms_access_key||"").trim();if(!key){tell("Envoi indisponible. Votre demande reste affichée. Utilisez le téléphone ou l’e-mail.",true);return;}data.append("access_key",key);busy=true;if(submit){submit.disabled=true;submit.textContent="Envoi…";}const c=new AbortController(),timeout=setTimeout(()=>c.abort(),15000);
 try{const response=await fetch("https://api.web3forms.com/submit",{method:"POST",body:data,signal:c.signal});const result=await response.json();if(!response.ok||result.success!==true)throw new Error("Envoi non confirmé");location.href="merci.html";}catch(err){tell("Envoi non confirmé. Votre demande reste affichée. Vérifiez avant de réessayer ou contactez-nous directement.",true);}finally{clearTimeout(timeout);busy=false;if(submit){submit.disabled=false;submit.textContent="Envoyer ma demande";}}});
+form.hidden=false;
 })();

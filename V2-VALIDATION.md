@@ -13,3 +13,8 @@ Base main 69f8e129fd190c57d80de109c645e6b628b1eed9. Branche v2. PREVIEW=true dan
 - Vérifier les 14 pages locales individuellement (contenu unique, distances et tarifs). Pas de création massive de pages artificielles.
 - Régénérer sitemap et llms-full depuis la branche, vérifier URLs et métadonnées. Audit Lighthouse réel et Core Web Vitals ; pas de score annoncé sans mesure.
 - Avant mise en ligne : vérifier HTTPS, en-têtes effectifs OVH, formulaire de recette avec destinataire autorisé, validation côté serveur et protection antispam, confidentialité, contrôles de non-régression. PREVIEW ne peut être retiré qu'après validation. Aucun déploiement automatique.
+
+## État de la recette
+- Aperçu autonome distinct : 112 contrôles de rendu (28 parcours × 4 tailles), aucun débordement horizontal constaté, menu/thème et formulaire fictif testés, aucune requête HTTP. Cela ne valide pas la branche complète ; recette réelle de chaque page et intégration du fournisseur NOT_RUN.
+- Contrôles statiques du premier commit : aucun ID dupliqué dans les pages modifiées, destinations HTML internes existantes, 28 URLs sitemap.
+- Le formulaire est masqué sans JavaScript et son mode PREVIEW est obligatoire. Pas de déploiement.

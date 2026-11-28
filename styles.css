@@ -498,3 +498,6 @@ html[data-theme="dark"] .v2-num,html[data-theme="dark"] .v2-kicker{color:#facc15
 @media(max-width:860px){.v2-hero-grid,.v2-two{grid-template-columns:1fr;gap:1.4rem}.v2-visual{display:none}.v2-proof-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.v2-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.v2-home .section{padding:2.7rem 0}.v2-service{min-height:0}.v2-hero h1{font-size:clamp(2.4rem,9vw,4rem)}.v2-hero .btn{flex:1 1 140px}.v2-prices>div:last-child{grid-column:1/-1}.mobile-bar{padding-bottom:max(.45rem,env(safe-area-inset-bottom))}}
 @media(max-width:360px){.v2-cards{grid-template-columns:1fr}.v2-proof-grid strong{font-size:1rem}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.v2-form[hidden]{display:none!important}
+.v2-visual svg{width:clamp(80px,11vw,140px);height:auto;filter:drop-shadow(0 10px 24px #0005)}
