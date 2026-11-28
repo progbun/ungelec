@@ -4,7 +4,7 @@ today = datetime.date.today().isoformat()
 skip = {"404.html", "merci.html"}
 pages = []
 for p in sorted(root.glob("*.html")):
-    if p.name in skip:
+    if p.name in skip or p.name.startswith('google'):
         continue
     pages.append(p.name)
 
@@ -22,7 +22,7 @@ def prio(name):
 lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for name in pages:
     loc = "https://ungelec.fr/" + ("" if name == "index.html" else name)
-    lines.append(f"  <url><loc>{loc}</loc><lastmod>{today}</lastmod><changefreq>monthly</changefreq><priority>{prio(name)}</priority></url>")
+    lines.append(f"  <url><loc>{loc}</loc></url>")
 lines.append("</urlset>")
 (root / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
 print("sitemap: %d urls" % len(pages))

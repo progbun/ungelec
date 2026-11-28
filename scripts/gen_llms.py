@@ -18,7 +18,7 @@ def strip_tags(s):
     return s
 
 for p in sorted(root.glob("*.html")):
-    if p.name in skip:
+    if p.name in skip or p.name.startswith('google'):
         continue
     raw = p.read_text(encoding="utf-8")
     m = re.search(r"<title>(.*?)</title>", raw, re.S|re.I)

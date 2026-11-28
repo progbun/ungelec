@@ -43,98 +43,174 @@
     })();
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": ["Electrician", "HomeAndConstructionBusiness", "LocalBusiness"],
-        "@id": "https://ungelec.fr/#business",
-        "name": "UNGÉLEC",
-        "alternateName": ["Bunly UNG E.I.", "Bunly UNG", "UNG Bunly"],
-        "description": "Électricien et multi-services à Malafretaz (01340). Installation et rénovation électrique, mise en conformité NF C 15-100, domotique, vidéosurveillance, montage, fixations et petits travaux. SIREN 824533103.",
-        "url": "https://ungelec.fr/",
-        "telephone": "+33681924029",
-        "email": "contact@ungelec.fr",
-        "image": "https://ungelec.fr/og-cover.png",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "370 route du Costal",
-          "addressLocality": "Malafretaz",
-          "postalCode": "01340",
-          "addressRegion": "Ain",
-          "addressCountry": "FR"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Electrician",
+        "HomeAndConstructionBusiness",
+        "LocalBusiness"
+      ],
+      "@id": "https://ungelec.fr/#business",
+      "name": "UNGÉLEC",
+      "alternateName": [
+        "Bunly UNG E.I.",
+        "Bunly UNG",
+        "UNG Bunly"
+      ],
+      "description": "Électricien et multi-services à Malafretaz (01340). Installation et rénovation électrique, mise en conformité NF C 15-100, domotique, vidéosurveillance, montage, fixations et petits travaux. SIREN 824533103.",
+      "url": "https://ungelec.fr/",
+      "telephone": "+33681924029",
+      "email": "contact@ungelec.fr",
+      "image": "https://ungelec.fr/og-cover.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "370 route du Costal",
+        "addressLocality": "Malafretaz",
+        "postalCode": "01340",
+        "addressRegion": "Ain",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.3247,
+        "longitude": 5.1475
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "19:00"
         },
-        "geo": { "@type": "GeoCoordinates", "latitude": 46.3247, "longitude": 5.1475 },
-        "openingHoursSpecification": [
-          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday"], "opens": "08:00", "closes": "19:00" },
-          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Saturday"], "opens": "08:00", "closes": "12:00" }
-        ],
-        "areaServed": [{
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Wednesday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "12:00"
+        }
+      ],
+      "areaServed": [
+        {
           "@type": "GeoCircle",
           "name": "Rayon prioritaire 50 km autour de Malafretaz (Bresse, Dombes, Revermont, Mâcon)",
-          "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 46.3247, "longitude": 5.1475 },
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 46.3247,
+            "longitude": 5.1475
+          },
           "geoRadius": 50000
-        }, {
+        },
+        {
           "@type": "GeoCircle",
           "name": "Zone étendue jusqu'à 100 km",
-          "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 46.3247, "longitude": 5.1475 },
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 46.3247,
+            "longitude": 5.1475
+          },
           "geoRadius": 100000
         },
-        { "@type": "City", "name": "Bourg-en-Bresse" },
-        { "@type": "City", "name": "Mâcon" },
-        { "@type": "City", "name": "Ambérieu-en-Bugey" },
-        { "@type": "City", "name": "Oyonnax" },
-        { "@type": "City", "name": "Villefranche-sur-Saône" },
-        { "@type": "City", "name": "Lons-le-Saunier" }],
-        "priceRange": "€€",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Services",
-          "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tableau électrique et mise en conformité NF C 15-100" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Installation et rénovation électrique" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dépannage électrique" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Prises, interrupteurs et éclairage" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Domotique et vidéosurveillance" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Montage, fixations et petits travaux" } }
-          ]
+        {
+          "@type": "City",
+          "name": "Bourg-en-Bresse"
         },
-        "sameAs": ["https://g.page/r/CTxR1ZUKkInJEBQ"],
-        "identifier": { "@type": "PropertyValue", "name": "SIREN", "value": "824533103" }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://ungelec.fr/#faq",
-        "mainEntity": [
-          {"@type":"Question","name":"Proposez-vous déjà des travaux d'électricité ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Je suis habilité électrique (NF C 18-510 : B0, H0, B1, BR, B2, B2(V), B1(V), BC) et assuré (RC Pro, décennale). Interventions électriques et multi-services sur devis écrit."}},
-          {"@type":"Question","name":"Faut-il un acompte ?","acceptedAnswer":{"@type":"Answer","text":"Oui, un acompte de 30 % est demandé avant le démarrage de tout chantier. Le solde est réglé à la fin des travaux."}},
-          {"@type":"Question","name":"Facturez-vous la TVA ?","acceptedAnswer":{"@type":"Answer","text":"En micro-entreprise sous le régime de la franchise en base, la TVA n'est pas applicable (art. 293 B du CGI)."}},
-          {"@type":"Question","name":"Quelle est votre zone d'intervention ?","acceptedAnswer":{"@type":"Answer","text":"Base à Malafretaz (01340). Rayon prioritaire de 50 km : toutes les communes de la Bresse (Montrevel-en-Bresse, Bourg-en-Bresse, Viriat, Polliat, Attignat, Jayat, Marsonnas, Ceyzériat, Saint-Denis-lès-Bourg), la Dombes, le Revermont, Pont-de-Vaux, ainsi que Mâcon (25 km), Oyonnax (40 km), Ambérieu-en-Bugey (44 km) et Lons-le-Saunier (47 km). Au-delà, interventions jusqu'à 100 km sur devis (Villefranche-sur-Saône et axe Bourg-Lyon notamment)."}},
-          {"@type":"Question","name":"Les devis sont-ils gratuits ?","acceptedAnswer":{"@type":"Answer","text":"Oui, le devis est gratuit et sans engagement. Il est établi par téléphone, e-mail ou WhatsApp après description du besoin et photos si possible. Réponse sous 24 h ouvrées."}},
-          {"@type":"Question","name":"Quels sont vos délais d'intervention ?","acceptedAnswer":{"@type":"Answer","text":"Je m'adapte au planning et au type de chantier. Les urgences électriques sont traitées en priorité. Prise de rendez-vous possible (ex. samedi matin, semaine du 12)."}},
-          {"@type":"Question","name":"Êtes-vous assuré pour les travaux électriques ?","acceptedAnswer":{"@type":"Answer","text":"Oui, je suis couvert par une responsabilité civile professionnelle (RC Pro) et une assurance décennale pour les ouvrages concernés. Les attestations sont disponibles sur demande avant chantier."}}
+        {
+          "@type": "City",
+          "name": "Mâcon"
+        },
+        {
+          "@type": "City",
+          "name": "Ambérieu-en-Bugey"
+        },
+        {
+          "@type": "City",
+          "name": "Oyonnax"
+        },
+        {
+          "@type": "City",
+          "name": "Villefranche-sur-Saône"
+        },
+        {
+          "@type": "City",
+          "name": "Lons-le-Saunier"
+        }
+      ],
+      "priceRange": "€€",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tableau électrique et mise en conformité NF C 15-100"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Installation et rénovation électrique"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dépannage électrique"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Prises, interrupteurs et éclairage"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Domotique et vidéosurveillance"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Montage, fixations et petits travaux"
+            }
+          }
         ]
       },
-      {
-        "@type": "HowTo",
-        "@id": "https://ungelec.fr/#processus-devis",
-        "name": "Comment obtenir un devis UNGÉLEC",
-        "description": "Processus en 4 étapes pour obtenir un devis écrit pour des travaux électriques ou multi-services à Malafretaz et alentours.",
-        "step": [
-          {"@type":"HowToStep","position":1,"name":"Décrire le besoin","text":"Décrire le besoin par formulaire, WhatsApp ou appel, avec photos si possible."},
-          {"@type":"HowToStep","position":2,"name":"Recevoir un devis clair","text":"Recevoir un devis écrit détaillant la main-d'œuvre, les fournitures et le déplacement selon la distance."},
-          {"@type":"HowToStep","position":3,"name":"Acompte de 30 %","text":"Verser un acompte de 30 % avant le démarrage du chantier. Le devis est valable 30 jours."},
-          {"@type":"HowToStep","position":4,"name":"Intervention","text":"Intervention soignée avec essais et explications, puis solde à la fin des travaux."}
-        ]
+      "sameAs": [
+        "https://g.page/r/CTxR1ZUKkInJEBQ"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "SIREN",
+        "value": "824533103"
       }
-    ]
-  }
-  </script>
+    }
+  ]
+}
+</script>
 </head>
 <body id="top">
   <header class="header">
     <div class="container header__inner">
-      <a class="brand" href="#top">
+      <a class="brand" href="index.html">
         <img class="brand__logo" src="logo.svg" width="44" height="50" alt="UNGÉLEC">
         <span class="brand__text">
           <strong>UNGÉLEC</strong>
@@ -151,278 +227,25 @@
         </button>
       </div>
       <nav class="nav" id="nav" aria-label="Navigation">
-        <a href="#electricite">Électricité</a>
-        <a href="#services">Multi-services</a>
-        <a href="tarifs.html">Tarifs</a>
-        <a href="conseils.html">Conseils</a>
-        <a href="#zone">Zone</a>
-        <a href="#faq">FAQ</a>
-        <a href="#devis" class="nav__cta">Demander un devis</a>
-      </nav>
+<a href="electricite.html">Électricité</a><a href="multiservices.html">Multiservices</a><a href="realisations.html">Réalisations</a><a href="tarifs.html">Tarifs</a><a href="conseils.html">Conseils</a><a href="contact.html" class="nav__cta">Demander un devis</a></nav>
     </div>
   </header>
 
   <a class="skip" href="#contenu">Aller au contenu</a>
-  <main id="contenu">
-    <section class="hero">
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <p class="eyebrow">Artisan local · Malafretaz &amp; alentours</p>
-          <h1>Électricien &amp; multi-services<br>à Malafretaz</h1>
-          <p class="lead">Installation, mise en conformité, dépannage et petits travaux chez les particuliers. Un seul interlocuteur, un devis écrit avant travaux, des délais tenus.</p>
-          <div class="hero__actions">
-            <a class="btn btn--primary" href="#devis">Demander un devis</a>
-            <a class="btn btn--ghost" href="tel:+33681924029">06 81 92 40 29</a>
-            <a class="btn btn--ghost" href="https://wa.me/33681924029?text=Bonjour%20UNG%C3%89LEC%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noopener">WhatsApp</a>
-          </div>
-          <ul class="trust">
-            <li>Artisan local Ain</li>
-            <li>Devis détaillé</li>
-            <li>Acompte 30 % avant démarrage</li>
-            <li><a class="trust-link" href="https://g.page/r/CTxR1ZUKkInJEBQ" target="_blank" rel="noopener">Fiche Google</a></li>
-          </ul>
-        </div>
-        <aside class="hero__card">
-          <img src="logo.svg" alt="" class="hero__card-logo" width="72" height="80">
-          <p class="hero__card-name">UNGÉLEC</p>
-          <p class="hero__card-legal">Bunly UNG E.I. · SIREN 824 533 103</p>
-          <p class="hero__card-line"><a href="tel:+33681924029">06 81 92 40 29</a></p>
-          <p class="hero__card-line"><a href="mailto:contact@ungelec.fr">contact@ungelec.fr</a></p>
-          <p class="hero__card-line">370 route du Costal<br>01340 Malafretaz</p>
-          <a class="btn btn--google" href="https://g.page/r/CTxR1ZUKkInJEBQ" target="_blank" rel="noopener">Voir la fiche Google</a>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section section--muted" id="qui">
-      <div class="container who">
-        <img src="logo.svg" alt="UNGÉLEC" class="who__logo" width="90" height="100">
-        <div>
-          <header class="section__head">
-            <h2>Qui suis-je&nbsp;?</h2>
-          </header>
-          <p>Je m'appelle Bunly, artisan installé à <strong>Malafretaz (01340)</strong>. Je travaille seul, sur le terrain, de la visite au nettoyage de fin de chantier. Pour mes chantiers d'électricité et de multi-services, pas de sous-traitance : un seul interlocuteur, un travail soigné et des délais tenus.</p>
-          <p>Mes interventions couvrent l'électricité, la domotique et la vidéosurveillance, ainsi que les petits travaux du quotidien : fixation TV, montage de meubles, remplacement de robinet ou de siphon, petites réparations.</p>
-          <p>Selon le référentiel <strong>NF C 15-100</strong> (série en vigueur depuis le 1<sup>er</sup> septembre 2025), une installation électrique doit comporter des protections différentielles 30 mA, des sections de câbles adaptées et des liaisons équipotentielles : c'est le cadre dans lequel j'interviens pour la mise en conformité et la mise en sécurité. Mon habilitation électrique (NF C 18-510 : B0, H0, B1, BR, B2, B2(V), B1(V), BC) et mes assurances (RC Pro, décennale) encadrent chaque chantier.</p>
-          <ul class="trust">
-            <li>SIREN 824 533 103</li>
-            <li>Basé à Malafretaz</li>
-            <li>50 km prioritaires · 100 km</li>
-            <li>Devis écrit avant travaux</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-<section class="section section--muted" id="chiffres">
-      <div class="container">
-        <header class="section__head"><h2>Chiffres clés</h2></header>
-        <div class="services">
-          <article class="service"><h3>50 km</h3><p>Rayon prioritaire autour de Malafretaz : toute la Bresse, la Dombes, le Revermont, Pont-de-Vaux, Mâcon (25 km), Oyonnax (40 km), Ambérieu-en-Bugey (44 km) et Lons-le-Saunier (47 km).</p></article>
-          <article class="service"><h3>14 villes</h3><p>Couvertes en pages dédiées : Bourg-en-Bresse, Mâcon, Ambérieu-en-Bugey, Oyonnax, Villefranche-sur-Saône, Lons-le-Saunier, plus Montrevel, Polliat, Viriat, Attignat, Jayat, Marsonnas, Ceyzériat et Saint-Denis-lès-Bourg — et jusqu'à 100 km au-delà, sur devis.</p></article>
-          <article class="service"><h3>1 interlocuteur</h3><p>Pas de sous-traitance : du devis au nettoyage de fin de chantier.</p></article>
-          <article class="service"><h3>30 %</h3><p>Acompte avant démarrage ; devis valable 30 jours ; TVA non applicable (art. 293 B CGI).</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--muted" id="zone">
-      <div class="container">
-        <header class="section__head"><h2>Zone d'intervention : 50 km prioritaires autour de Malafretaz</h2></header>
-        <p><strong>Priorité au rayon de 50 km</strong> : toute la Bresse et ses communes — <a href="electricien-bourg-en-bresse.html">Bourg-en-Bresse (15 km)</a>, <a href="electricien-montrevel.html">Montrevel-en-Bresse (5 km)</a>, <a href="electricien-polliat.html">Polliat (7 km)</a>, <a href="electricien-viriat.html">Viriat (11 km)</a>, <a href="electricien-attignat.html">Attignat (9 km)</a>, <a href="electricien-jayat.html">Jayat (6 km)</a>, <a href="electricien-marsonnas.html">Marsonnas (4 km)</a>, <a href="electricien-ceyzeriat.html">Ceyzériat (23 km)</a>, <a href="electricien-saint-denis-les-bourg.html">Saint-Denis-lès-Bourg (18 km)</a> — ainsi que la Dombes (Châtillon-sur-Chalaronne, Villars-les-Dombes), le Revermont, Pont-de-Vaux et Bâgé-le-Châtel.</p>
-        <p><strong>Villes plus lointaines, toujours dans le cercle des 50 km</strong> : <a href="electricien-macon.html">Mâcon</a> à 25 km, <a href="electricien-oyonnax.html">Oyonnax</a> à 40 km, <a href="electricien-amberieu.html">Ambérieu-en-Bugey</a> à 44 km, <a href="electricien-lons-le-saunier.html">Lons-le-Saunier</a> à 47 km et <a href="electricien-villefranche.html">Villefranche-sur-Saône</a> aux portes du rayon.</p>
-        <p><strong>Au-delà de 50 km, jusqu'à 100 km</strong> : déplacements possibles sur devis, le long des grands axes A40, A39 et D1075 — déplacement offert jusqu'à 10 km, puis 30 €, 45 € et 60 € par tranche jusqu'à 50 km.</p>
-      </div>
-    </section>
-
-    <section class="section" id="electricite">
-      <div class="container">
-        <header class="section__head">
-          <h2>Électricité</h2>
-          <p>Prestations électriques pour l'habitat et les petits locaux. Matériel de marques professionnelles (Legrand, Schneider, Hager…) selon devis. Référentiel : série <strong>NF C 15-100</strong> (applicable depuis le 1<sup>er</sup> sept. 2025).</p>
-          <p class="badge">Habilitation électrique : B0, H0, B1, BR, B2, B2(V), B1(V), BC</p>
-        </header>
-        <div class="services">
-          <article class="service"><h3>Tableau électrique</h3><p>Remplacement ou extension de tableau, différentiels 30 mA, disjoncteurs calibrés, peignes, étiquetage et repérage clair des circuits.</p></article>
-          <article class="service"><h3>Mise en conformité</h3><p>Mise à niveau NF C 15-100 : protections différentielles, sections de câbles, liaisons équipotentielles, points de contrôle.</p></article>
-          <article class="service"><h3>Prises &amp; interrupteurs</h3><p>Ajout ou remplacement de prises 2P+T, USB, interrupteurs, va-et-vient, poussoirs, en saillie ou encastré.</p></article>
-          <article class="service"><h3>Éclairage</h3><p>Points lumineux, spots, appliques, détecteurs, variateurs LED compatibles, circuits dédiés et finitions soignées.</p></article>
-          <article class="service"><h3>Circuits spécialisés</h3><p>Lignes dédiées four, plaque, ballon d'eau chaude, lave-linge, sèche-linge, VMC — calibres et sections adaptés.</p></article>
-          <article class="service"><h3>Dépannage électrique</h3><p>Recherche de panne, disjoncteur qui déclenche, défaut d'isolement, prise hors service : diagnostic puis remise en état.</p></article>
-          <article class="service"><h3>Goulottes &amp; chemins de câbles</h3><p>Passages apparents propres, goulottes, moulures, rangement TV et bureautique, finition discrète.</p></article>
-          <article class="service"><h3>Domotique &amp; vidéosurveillance</h3><p>Caméras IP, objets connectés, équipements Wi-Fi : pose, raccordement et paramétrage (particuliers).</p></article>
-        </div>
-        <p class="note">Travaux électriques et multi-services réalisés sur devis écrit. Matériel de marques professionnelles ou fourni par le client.</p>
-      </div>
-    </section>
-
-    <section class="section section--muted" id="services">
-      <div class="container">
-        <header class="section__head">
-          <h2>Multi-services</h2>
-          <p>En complément de l'électricité : les petits travaux du quotidien, souvent demandés en même temps. Chaque devis est adapté au chantier.</p>
-        </header>
-        <div class="services">
-          <article class="service"><h3>TV &amp; fixations</h3><p>Suspension TV, support mural, alignement, passage et rangement des câbles, finition propre sur placo ou mur plein.</p></article>
-          <article class="service"><h3>Montage &amp; aménagement</h3><p>Meubles et kits, commodes, lits, bureaux, placards coulissants, étagères, tringles, miroirs, cadres lourds.</p></article>
-          <article class="service"><h3>Fixations diverses</h3><p>Tablettes, miroirs, équipements muraux et charges lourdes, avec chevillage adapté au support (plein, creux, placo).</p></article>
-          <article class="service"><h3>Entretien, dépannage sanitaire &amp; robinetterie</h3><p>Robinet, flexible, joint, siphon, mitigeur simple, mécanisme de chasse — petites interventions du quotidien.</p></article>
-          <article class="service"><h3>Serrurerie &amp; quincaillerie</h3><p>Poignées, serrures, cylindres, ajustements de portes et petites réparations intérieures.</p></article>
-          <article class="service"><h3>Packs combinés</h3><p>Électricité + fixations ou finitions sur une même intervention, pour limiter les déplacements et les frais.</p></article>
-        </div>
-        <p class="note">Déplacement offert jusqu'à 10 km, puis 30 € (10-20 km), 45 € (20-30 km) et 60 € (30-50 km). Au-delà de 50 km : sur devis. Matériel fourni par le client ou chiffré à part sur devis.</p>
-      </div>
-    </section>
-
-    <section class="section" id="tarifs">
-      <div class="container">
-        <header class="section__head">
-          <h2>Tarifs indicatifs</h2>
-          <p>Prix « à partir de », <strong>hors matériel</strong> (sauf mention). Chaque chantier fait l'objet d'un devis écrit personnalisé. Ces repères vous aident à vous situer.</p>
-        </header>
-        <div class="pricing">
-          <div class="panel">
-            <h3>Multi-services <span class="tag tag--actif">Disponible</span></h3>
-            <ul class="price-list">
-            <li><span>Minimum d'intervention</span><b>110 €</b></li>
-            <li><span>Fixation TV (support fourni par vous)</span><b>130 €</b></li>
-            <li><span>TV + rangement des câbles / goulotte</span><b>170 €</b></li>
-            <li><span>Montage meuble simple</span><b>à partir de 100 €</b></li>
-            <li><span>Armoire / lit / buffet</span><b>à partir de 190 €</b></li>
-            <li><span>Placard ou porte coulissante</span><b>300 €</b></li>
-            <li><span>Étagère / tringle / miroir / cadre</span><b>à partir de 85 €</b></li>
-            <li><span>Entretien, dépannage sanitaire &amp; robinetterie (flexible, siphon, joint)</span><b>105 €</b></li>
-            <li><span>Pose mitigeur simple</span><b>130 €</b></li>
-            <li><span>Pose cuvette WC</span><b>170 €</b></li>
-            <li><span>Caméra IP (pose + config.)</span><b>175 €</b></li>
-            <li><span>Demi-journée sur place (4 h)</span><b>200 €</b></li>
-            <li><span>Journée sur place (8 h)</span><b>400 €</b></li>
-            <li><span>Taux horaire multi-services</span><b>50 €/h</b></li>
-            </ul>
-          </div>
-          <div class="panel">
-            <h3>Électricité <span class="tag tag--actif">Disponible</span></h3>
-            <ul class="price-list">
-            <li><span>Remplacement prise ou interrupteur</span><b>à partir de 110 €</b></li>
-            <li><span>Nouvelle prise en saillie</span><b>150 €</b></li>
-            <li><span>Pose va-et-vient</span><b>160 €</b></li>
-            <li><span>Plafonnier / applique (point existant)</span><b>115 €</b></li>
-            <li><span>Dépannage / diagnostic</span><b>135 €</b></li>
-            <li><span>Mise en sécurité tableau (léger)</span><b>à partir de 500 €</b></li>
-            <li><span>Taux horaire électricité</span><b>70 €/h</b></li>
-            </ul>
-            <p class="note">Fourniture du matériel en sus.</p>
-          </div>
-        </div>
-        <div class="pricing">
-          <div class="panel">
-            <h3>Déplacements</h3>
-            <ul class="price-list">
-              <li><span>0 à 10 km</span><b>Offert</b></li>
-              <li><span>10 à 20 km</span><b>30 €</b></li>
-              <li><span>20 à 30 km</span><b>45 €</b></li>
-              <li><span>30 à 50 km</span><b>60 €</b></li>
-            </ul>
-            <p class="note">Distance calculée depuis Malafretaz (01340), aller/retour.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--muted" id="conformite">
-      <div class="container split">
-        <div class="panel">
-          <h3>Conformité &amp; sécurité</h3>
-          <p>Les travaux électriques sont réalisés dans une logique de conformité et de traçabilité :</p>
-          <ul>
-            <li>Référentiel <strong>NF C 15-100</strong> (série en vigueur)</li>
-            <li>Habilitation électrique selon <strong>NF C 18-510</strong> / Code du travail (R. 4544-9)</li>
-            <li>Préparation aux contrôles type <strong>Consuel</strong> lorsque le cadre l'exige</li>
-            <li>Photos avant / après et compte-rendu d'intervention</li>
-            <li>Matériel de marques professionnelles (Legrand, Schneider, Hager…)</li>
-          </ul>
-        </div>
-        <div class="panel">
-          <h3>Assurances &amp; cadre pro</h3>
-          <ul>
-            <li><strong>RC Pro</strong> — responsabilité civile professionnelle</li>
-            <li><strong>Décennale</strong> — pour les ouvrages concernés</li>
-            <li>Entreprise individuelle : Bunly UNG — SIREN 824 533 103</li>
-            <li>Franchise de TVA : art. 293 B du CGI</li>
-            <li>Devis écrit avant travaux, acompte 30 %, validité 30 jours</li>
-          </ul>
-          <p class="note">Les attestations d'assurance sont disponibles sur demande avant chantier.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--muted" id="methode">
-      <div class="container">
-        <header class="section__head"><h2>Comment ça se passe</h2></header>
-        <ol class="steps">
-          <li><strong>Vous décrivez le besoin</strong> — formulaire, WhatsApp ou appel, photos si possible.</li>
-          <li><strong>Devis clair</strong> — main-d'œuvre et éventuelles fournitures détaillées, déplacement indiqué selon la distance.</li>
-          <li><strong>Acompte de 30 %</strong> — obligatoire avant le démarrage du chantier.</li>
-          <li><strong>Intervention</strong> — travail soigné, essais et explications, puis solde à la fin des travaux.</li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section" id="zone">
-      <div class="container zone">
-        <div>
-          <header class="section__head">
-            <h2>Zone d'intervention</h2>
-            <p><strong>Artisan local · Malafretaz &amp; alentours</strong> — base à Malafretaz (01340), rayon prioritaire de 50 km (toute la Bresse, la Dombes, le Revermont, plus Mâcon, Oyonnax, Ambérieu-en-Bugey et Lons-le-Saunier) et jusqu'à 100 km au-delà, sur devis.</p>
-          </header>
-          <ul class="zone-links">
-            <li><a href="electricien-montrevel.html">Électricien à Montrevel-en-Bresse</a></li>
-            <li><a href="electricien-jayat.html">Électricien à Jayat</a></li>
-            <li><a href="electricien-marsonnas.html">Électricien à Marsonnas</a></li>
-            <li><a href="electricien-attignat.html">Électricien à Attignat</a></li>
-            <li><a href="electricien-saint-denis-les-bourg.html">Électricien à Saint-Denis-lès-Bourg</a></li>
-            <li><a href="electricien-viriat.html">Électricien à Viriat</a></li>
-            <li><a href="electricien-polliat.html">Électricien à Polliat</a></li>
-            <li><a href="electricien-ceyzeriat.html">Électricien à Ceyzériat</a></li>
-            <li><a href="electricien-bourg-en-bresse.html">Électricien à Bourg-en-Bresse</a></li>
-            <li><a href="electricien-macon.html">Électricien à Mâcon</a></li>
-            <li><a href="electricien-oyonnax.html">Électricien à Oyonnax</a></li>
-            <li><a href="electricien-amberieu.html">Électricien à Ambérieu-en-Bugey</a></li>
-            <li><a href="electricien-lons-le-saunier.html">Électricien à Lons-le-Saunier</a></li>
-            <li><a href="electricien-villefranche.html">Électricien à Villefranche-sur-Saône</a></li>
-          </ul>
-          <p class="note">Rayon prioritaire de 50 km autour de Malafretaz ; au-delà, jusqu'à 100 km, sur devis. Demandez : je vous indique si l'intervention est possible.</p>
-        </div>
-        <div class="map-wrap">
-          <iframe title="Carte Malafretaz et alentours" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=4.85%2C46.15%2C5.45%2C46.50&amp;layer=mapnik&amp;marker=46.3247%2C5.1475"></iframe>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--muted" id="avis">
-      <div class="container avis">
-        <header class="section__head">
-          <h2>Avis &amp; confiance</h2>
-          <p>Retrouvez UNGÉLEC sur Google et laissez un avis après une intervention — cela aide les voisins du secteur à me trouver.</p>
-        </header>
-        <div class="avis__box">
-          <div>
-            <p class="avis__title">Fiche Google Business</p>
-            <p class="avis__text">Coordonnées, zone, photos et avis clients au même endroit. Vos avis s'afficheront ici au fil des chantiers.</p>
-          </div>
-          <div class="avis__actions">
-            <a class="btn btn--primary" href="https://g.page/r/CTxR1ZUKkInJEBQ" target="_blank" rel="noopener">Ouvrir la fiche Google</a>
-            <a class="btn btn--ghost" href="https://g.page/r/CTxR1ZUKkInJEBQ" target="_blank" rel="noopener">Laisser un avis</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="faq">
+  <main id="contenu" class="v2-home">
+<section class="v2-hero"><div class="container v2-hero-grid"><div><p class="v2-kicker">ARTISAN LOCAL · AIN &amp; ALENTOURS</p><h1>Votre électricien<br>de proximité.</h1><p class="v2-lead">Électricité, dépannage et multiservices à Malafretaz, Bourg-en-Bresse et alentours. Un seul interlocuteur, du devis à la fin des travaux.</p><div class="hero__actions"><a class="btn btn--primary" href="contact.html">Demander un devis <span aria-hidden="true">→</span></a><a class="btn v2-outline" href="tel:+33681924029">Appeler</a></div><p class="v2-hero-note">Devis écrit · Tarifs transparents · Intervention sur rendez-vous</p></div><div class="v2-visual" aria-hidden="true"><div class="v2-visual-grid"></div><img src="logo.svg" alt="" width="140" height="155"><span>UNGÉLEC</span><small>ÉLECTRICITÉ &amp; MULTISERVICES</small></div></div></section>
+<div class="v2-proof"><div class="container v2-proof-grid"><div><strong>50 km</strong><span>Zone prioritaire</span></div><div><strong>14 villes</strong><span>Pages locales</span></div><div><strong>1 interlocuteur</strong><span>Du devis au chantier</span></div><div><strong>Devis écrit</strong><span>Avant intervention</span></div></div></div>
+<section class="section" id="electricite"><div class="container"><header class="v2-section-head"><p class="v2-kicker">01 / PRESTATIONS</p><h2>Des solutions pour votre habitat.</h2><p>Choisissez votre besoin pour découvrir les prestations et préparer votre demande.</p></header><div class="v2-cards"><a class="v2-service" href="electricite.html#electricite"><span class="v2-num">01</span><h3>Tableaux & rénovation</h3><p>Modernisation de votre installation et remplacement de tableau.</p><span class="v2-link">Découvrir <span aria-hidden="true">↗</span></span></a><a class="v2-service" href="electricite.html#electricite"><span class="v2-num">02</span><h3>Dépannage électrique</h3><p>Diagnostic des pannes et remise en état sur devis.</p><span class="v2-link">Découvrir <span aria-hidden="true">↗</span></span></a><a class="v2-service" href="electricite.html#electricite"><span class="v2-num">03</span><h3>Éclairage & appareillage</h3><p>Installation ou remplacement de prises, interrupteurs et luminaires.</p><span class="v2-link">Découvrir <span aria-hidden="true">↗</span></span></a><a class="v2-service" href="electricite.html#electricite"><span class="v2-num">04</span><h3>Domotique & connectivité</h3><p>Équipements connectés et configuration selon votre projet.</p><span class="v2-link">Découvrir <span aria-hidden="true">↗</span></span></a><a class="v2-service" href="multiservices.html#services"><span class="v2-num">05</span><h3>Montage & fixations</h3><p>Mobilier, supports TV et aménagement intérieur.</p><span class="v2-link">Découvrir <span aria-hidden="true">↗</span></span></a><a class="v2-service" href="multiservices.html#services"><span class="v2-num">06</span><h3>Petits travaux</h3><p>Entretien courant et interventions selon le besoin.</p><span class="v2-link">Découvrir <span aria-hidden="true">↗</span></span></a></div><p id="services" class="v2-more"><a class="btn btn--ghost" href="multiservices.html">Voir tous les multiservices</a></p></div></section>
+<section class="v2-band" id="qui"><div class="container v2-two"><div><p class="v2-kicker">02 / UN ARTISAN DE PROXIMITÉ</p><h2>Le soin du détail, du premier contact à la fin des travaux.</h2><p>Une demande clairement définie, un devis détaillé et une intervention adaptée à votre projet.</p><a class="btn btn--primary" href="entreprise.html">Découvrir UNGÉLEC</a></div><div class="v2-panel"><h3>Vos repères</h3><ul><li>Un interlocuteur unique</li><li>Matériel chiffré sur devis</li><li>Zone d’intervention clairement définie</li><li>Coordonnées et documents professionnels accessibles</li></ul></div></div></section>
+<section class="section" id="tarifs"><div class="container"><header class="v2-section-head"><p class="v2-kicker">03 / TARIFS</p><h2>Des prix lisibles avant de décider.</h2><p>Repères indicatifs hors matériel, selon devis. Les conditions de minimum d’intervention et les déplacements sont détaillés sur la page Tarifs.</p></header><div class="v2-cards v2-prices"><div><small>Diagnostic électrique</small><strong>135 €</strong><span>Selon le besoin</span></div><div><small>Remplacement prise / interrupteur</small><strong>110 €</strong><span>À partir de</span></div><div><small>Multiservices</small><strong>50 €/h</strong><span>Minimum et conditions sur devis</span></div></div><a class="btn btn--ghost" href="tarifs.html">Consulter tous les tarifs →</a></div></section>
+<section class="section section--muted" id="realisations"><div class="container"><header class="v2-section-head"><p class="v2-kicker">04 / RÉALISATIONS &amp; CONFIANCE</p><h2>Des projets concrets.</h2><p>Un espace dédié aux réalisations, à enrichir avec des photos authentiques. Retrouvez également les avis sur la fiche Google.</p></header><div class="v2-two"><a class="v2-service" href="realisations.html"><h3>Galerie de réalisations</h3><p>Découvrir les catégories de projets.</p><span class="v2-link">Voir la galerie →</span></a><a class="v2-service" href="https://g.page/r/CTxR1ZUKkInJEBQ" rel="noopener" target="_blank"><h3>Avis Google</h3><p>Consulter la fiche de l’entreprise.</p><span class="v2-link">Voir les avis ↗</span></a></div></div></section>
+<section class="section" id="methode"><div class="container"><header class="v2-section-head"><p class="v2-kicker">05 / VOTRE PROJET</p><h2>Simple, du contact à l’intervention.</h2></header><div class="v2-cards"><div class="v2-service"><span class="v2-num">01</span><h3>Décrivez votre besoin</h3><p>Par téléphone ou formulaire.</p></div><div class="v2-service"><span class="v2-num">02</span><h3>Recevez un devis</h3><p>Prestations, matériel et déplacements détaillés.</p></div><div class="v2-service"><span class="v2-num">03</span><h3>Planifiez l’intervention</h3><p>Après accord sur le devis et les conditions.</p></div></div></div></section>
+<section class="section section--muted" id="zone"><div class="container v2-two"><div><p class="v2-kicker">06 / ZONE D’INTERVENTION</p><h2>Malafretaz et alentours.</h2><p>Rayon prioritaire de 50 km, jusqu’à 100 km sur devis. Bourg-en-Bresse, Montrevel-en-Bresse, Mâcon et communes voisines.</p><a class="btn btn--ghost" href="zone.html">Toutes les communes →</a></div><div class="v2-panel"><strong>Vous habitez dans le secteur ?</strong><p>Indiquez votre commune pour confirmer la disponibilité et les frais de déplacement.</p><a href="contact.html">Vérifier mon projet →</a></div></div></section>
+<section class="section" id="faq">
       <div class="container faq">
         <header class="section__head"><h2>Questions fréquentes</h2></header>
         <details><summary>Intervenez-vous uniquement à Malafretaz&nbsp;?</summary><p>Non. La base est à Malafretaz (01340) ; rayon prioritaire de 50 km : toute la Bresse (Montrevel, Bourg-en-Bresse, Viriat, Polliat, Attignat, Jayat, Marsonnas, Ceyzériat, Saint-Denis-lès-Bourg), la Dombes, le Revermont, plus Mâcon, Oyonnax, Ambérieu-en-Bugey et Lons-le-Saunier. Au-delà, jusqu'à 100 km, sur devis. Le déplacement est facturé selon la distance.</p></details>
-        <details><summary>Proposez-vous déjà des travaux d'électricité&nbsp;?</summary><p>Oui. Je suis habilité électrique (B0, H0, B1, BR, B2, B2(V), B1(V), BC — NF C 18-510) et couvert par une assurance professionnelle (RC Pro, décennale). Les interventions électriques et multi-services sont réalisées sur devis écrit.</p></details>
+        <details><summary>Comment vérifier les garanties professionnelles ?</summary><p>Demandez les attestations applicables à votre chantier avant de signer le devis.</p></details>
         <details><summary>Faut-il un acompte&nbsp;?</summary><p>Oui. Un acompte de 30 % est demandé avant le démarrage de tout chantier. Le solde est réglé à la fin des travaux. Le devis est valable 30 jours.</p></details>
         <details><summary>Fournissez-vous le matériel&nbsp;?</summary><p>Le matériel peut être fourni par le client ou chiffré à part sur devis. Indiquez votre préférence dans la demande.</p></details>
         <details><summary>Facturez-vous la TVA&nbsp;?</summary><p>En micro-entreprise sous le régime de la franchise en base, la TVA n'est pas applicable (art. 293 B du CGI), sauf évolution du statut ou des seuils.</p></details>
@@ -430,65 +253,7 @@
         <details><summary>Peut-on prendre rendez-vous&nbsp;?</summary><p>Oui. Indiquez dans le formulaire un créneau souhaité (ex. samedi matin, semaine du 12). Je vous confirme par téléphone, e-mail ou WhatsApp.</p></details>
       </div>
     </section>
-
-    <section class="section section--muted" id="devis">
-      <div class="container devis">
-        <header class="section__head">
-          <h2>Demander un devis</h2>
-          <p>Décrivez votre besoin et joignez des photos si possible. Réponse par téléphone, e-mail ou WhatsApp.</p>
-        </header>
-        <form class="form" id="form-devis" name="devis" method="POST" enctype="multipart/form-data" novalidate>
-          <input type="hidden" name="from_name" value="Site UNGÉLEC">
-          <input type="hidden" name="subject" value="Demande de devis — UNGÉLEC">
-          <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
-          <div class="form__grid">
-            <label>Nom<input type="text" name="name" required autocomplete="name" maxlength="120"></label>
-            <label>Téléphone<input type="tel" name="phone" required autocomplete="tel" maxlength="30"></label>
-            <label>E-mail<input type="email" name="email" autocomplete="email" maxlength="120"></label>
-            <label>Commune<input type="text" name="commune" placeholder="ex. Malafretaz, Montrevel…" required maxlength="80"></label>
-          </div>
-          <label>Type de besoin
-            <select name="service">
-              <option>Tableau électrique / mise en conformité</option>
-              <option>Prises, interrupteurs, éclairage</option>
-              <option>Circuit spécialisé (four, plaque, ballon…)</option>
-              <option>Dépannage électrique</option>
-              <option>Domotique / vidéosurveillance</option>
-              <option>Fixation TV</option>
-              <option>Montage meuble / placard</option>
-              <option>Entretien, dépannage sanitaire &amp; robinetterie</option>
-              <option>Autre / plusieurs besoins</option>
-            </select>
-          </label>
-          <label>Description du besoin
-            <textarea name="message" rows="5" required maxlength="4000" placeholder="Ex. remplacement tableau, suspension TV, remplacement prises, caméra…"></textarea>
-          </label>
-          <div class="form__grid">
-            <label>Créneau souhaité<input type="text" name="creneau" placeholder="ex. samedi matin, semaine du 12…" maxlength="120"></label>
-            <label>Urgence<input type="text" name="urgence" placeholder="ex. sous 48 h / pas urgent" maxlength="80"></label>
-          </div>
-          <label>Joignez des photos si possible
-            <input type="file" name="attachment" id="photos" accept="image/jpeg,image/png,image/webp,image/heic" multiple>
-          </label>
-          <p class="form__hint" id="photos-hint">Formats JPG ou PNG. Plusieurs fichiers possibles. Si l'envoi échoue, envoyez les photos par WhatsApp.</p>
-          <div class="form__consent">
-            <input type="checkbox" name="consent" id="consent" required>
-            <span><label for="consent">J'accepte que mes données soient utilisées pour traiter ma demande.</label> Voir la <a href="politique-confidentialite.html">politique de confidentialité</a>.</span>
-          </div>
-          <p class="form__status" id="form-status" hidden></p>
-          <button type="submit" class="btn btn--primary" id="form-submit">Envoyer la demande</button>
-        </form>
-        <p class="contact-alt">
-          Ou contactez directement :
-          <a href="tel:+33681924029">06 81 92 40 29</a> ·
-          <a href="mailto:contact@ungelec.fr">contact@ungelec.fr</a> ·
-          <a href="https://wa.me/33681924029?text=Bonjour%20UNG%C3%89LEC%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noopener">WhatsApp</a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
+<section class="v2-band" id="devis"><div class="container v2-two"><div><p class="v2-kicker">07 / CONTACT</p><h2>Parlons de votre projet.</h2><p>Décrivez votre besoin et votre commune. Nous convenons ensemble de la suite.</p></div><div class="hero__actions"><a class="btn btn--primary" href="contact.html">Demander un devis →</a><a class="btn v2-outline" href="tel:+33681924029">Appeler</a></div></div></section></main><footer class="footer">
     <div class="container footer__grid">
       <div>
         <p class="footer__brand">UNGÉLEC</p>
@@ -503,7 +268,7 @@
       </div>
       <div>
         <p class="footer__title">Le site</p>
-        <p><a href="#electricite">Électricité</a><br><a href="#services">Multi-services</a><br><a href="tarifs.html">Tarifs</a><br><a href="conseils.html">Conseils</a><br><a href="#devis">Demander un devis</a></p>
+        <p><a href="electricite.html">Électricité</a><br><a href="multiservices.html">Multi-services</a><br><a href="tarifs.html">Tarifs</a><br><a href="conseils.html">Conseils</a><br><a href="realisations.html">Réalisations</a><br><a href="entreprise.html">À propos</a><br><a href="zone.html">Zone d’intervention</a><br><a href="contact.html#devis">Demander un devis</a></p>
       </div>
       <div>
         <p class="footer__title">Zone</p>
@@ -518,7 +283,7 @@
   <div class="mobile-bar" aria-label="Actions rapides">
     <a href="tel:+33681924029">Appeler</a>
     <a href="https://wa.me/33681924029?text=Bonjour%20UNG%C3%89LEC%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noopener">WhatsApp</a>
-    <a class="mobile-bar__cta" href="#devis">Devis</a>
+    <a class="mobile-bar__cta" href="contact.html#devis">Devis</a>
   </div>
 
   <script src="config.js"></script>

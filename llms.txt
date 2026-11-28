@@ -88,3 +88,10 @@ et communes proches.
 - E-mail : contact@ungelec.fr
 - WhatsApp : https://wa.me/33681924029
 - Fiche Google Business : https://g.page/r/CTxR1ZUKkInJEBQ
+## Navigation V2
+- [Électricité](https://ungelec.fr/electricite.html)
+- [Multiservices](https://ungelec.fr/multiservices.html)
+- [À propos](https://ungelec.fr/entreprise.html)
+- [Réalisations](https://ungelec.fr/realisations.html)
+- [Zone](https://ungelec.fr/zone.html)
+- [Contact](https://ungelec.fr/contact.html)
